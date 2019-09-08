@@ -1,0 +1,328 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #cce0ff;
+
+}
+.top{
+	display: flex;
+	margin-top: 0px;
+	border-bottom:5px solid #e6e600;
+	background-color: #f5f5f0;
+}
+.companyName{
+	margin-left: 25%;
+	margin-top: 0px;
+
+}
+.companyName h2{
+	margin-top: 10px;
+	font-style: italic;
+	font-size: 40px;
+	color: #000099;
+}
+.companyName h4{
+	margin-top: -45px;
+	font-size: 30px;
+	font-style: oblique;
+	color: #cc0099;
+}
+.logo{
+	margin-left: 20px;
+	font-size: 40px;
+	background-color: #0033cc;
+	color: white;
+	border-radius: 20px;
+	height: 50px;
+	width: 180px;
+	padding-left: 20px;
+}
+header{
+background-image: url('headerphoto.jpg');
+background-position:center center;
+background-attachment: fixed;
+height: 800px;
+width: 100%;
+
+
+}
+nav{
+	display: flex;
+	background-color: white;
+	display: flex;
+	flex-wrap: wrap;
+	border-bottom:5px solid blue;
+
+}
+.menu{
+	width:600px;
+}
+nav .menu ul{
+display: flex;
+list-style: none;
+flex-wrap: wrap;
+
+
+}
+.menu ul li{
+	margin-left: 10px;
+	padding: 20px;
+	font-size: 20px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.number{
+	margin-top: 20px;
+	margin-left: 30px;
+}
+.menu{
+	margin-left: 25%;
+	display: flex;
+	flex: flex-end;
+}
+.name{
+	font-style: italic;
+	margin-left: 20px;
+	font-size: 40px;
+	font-weight: bold;
+	color: #000099;
+	margin-top: 20px;
+}
+.headerLine{
+	margin-top: 15%;
+	margin-left: 5%;
+	color: white;
+	font-family: sans-serif;
+	font-size: 50px;
+}
+.headerLineTwo{
+	margin-left: 5%;
+	color: white;
+	font-style: italic;
+	font-size: 60px;
+	margin-top: -15px;
+}
+header button{
+	margin-left: 15%;
+	height: 35px;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	background-color:red;
+	border: none;
+	outline: none;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.service{
+	margin: 15px;
+	display: flex;
+	flex-wrap: wrap-reverse;
+	animation: slide 1.5s ease;
+}
+ .one{
+	background-image: url('one.jpg');
+	background-repeat: no-repeat;
+	background-position: cover;
+	margin:40px;
+	width: 200px;
+	height: 200px;
+
+}
+.two{
+	background-image: url('two.jpg');
+	background-repeat: no-repeat;
+	background-position: cover;
+	margin:40px;
+	width: 200px;
+	height:200px;
+}
+.three{
+	background-image: url('three.jpg');
+	background-repeat: no-repeat;
+	background-position: cover;
+	margin: 40PX;
+	width: 250px;
+	height: 200px;
+}
+.service h2{
+	color: white;
+	margin-left: 10px;
+}
+
+.service h4{
+	color: #cc0099;
+	margin-left: 10px;
+	margin-top:-20px;
+	font-style: italic;
+	font-size: 20px; 
+}
+.four{
+	background-image: url('four.jpg');
+	background-repeat: no-repeat;
+	background-position: cover;
+	margin: 10PX;
+
+	width: 250px;
+	height: 200px;
+}	
+.offer{
+	display:flex;
+	flex-wrap: wrap;
+	width: 100%;
+
+}
+.offerOne{
+	height: 300px;
+	width: 200px;
+	margin: 10px;
+}
+.offerOne h4,{
+	margin-top: -25px;
+	color:  #000099;
+	font-style: italic;
+
+} 
+.offerTwo,.offerThree, .offerFour{
+	width: 350px;
+	margin:20px;
+}
+.offer h2{
+	color: #000099; 
+}
+.offer h4{
+	font-style: italic;
+	margin-top: -20px;
+}
+.gift{
+	height: 500px;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.forphoto{
+	width: 50%;
+	height:500px;
+
+	background-image: url('giftPhoto.jpg');
+}
+.forQuote{
+	height: 500px;
+	width: 50%;
+	background-image: url('quote.jpg');
+	background-position: center;
+
+
+}
+.feature{
+	width: 100%;
+
+}
+.photo{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+.feature h2{
+	margin-left: 45%;
+}
+.fOne{
+	width: 200px;
+	height: 200px;
+	background-image: url('featureone.jpg');
+	background-repeat: no-repeat;
+	margin: 10px;
+	border-radius: 10px;
+}
+.fTwo{
+	width: 200px;
+	height: 200px;
+	background-image: url('featuretwo.jpg');
+	background-repeat: no-repeat;
+	margin: 10px;
+	border-radius: 10px;
+}
+
+.fThree{
+	width: 200px;
+	height: 200px;
+	background-image: url('featurethree.jpg');
+	background-repeat: no-repeat;
+	margin: 10px;
+	border-radius: 10px;
+}
+.fFour{
+	width: 200px;
+	height: 200px;
+	background-image: url('featurefour.jpg');
+	background-repeat: no-repeat;
+	margin: 10px;
+	border-radius: 10px;
+}
+.fFive{
+	width: 200px;
+	height: 200px;
+	background-image: url('featurefive.jpg');
+	background-repeat: no-repeat;
+	margin: 10px;
+	border-radius: 10px;
+}
+.footer{
+	width: 100%;
+
+}
+button{
+	height: 20px;
+	border-radius: 10px;
+	font-style: italic;
+	font-weight: bold;
+	border:solid red 2px;	
+	margin-left: 50%;
+	outline: none;
+	margin-bottom: 10px;
+
+
+}
+.viewbutton:hover{
+background-color: black;
+}
+.menu ul li:hover{
+	color: red; 
+	
+}
+.click{
+	width: 200px;
+	height: 180px;
+	background-color: rgba(0,0,0,0.5);
+	display: none;
+
+}
+.click button{
+	margin-top: 50%;
+	cursor: pointer;
+}
+.three .click, .four .click{
+	width: 250px;
+}
+.one:hover .click{
+display: block;
+}
+.two:hover .click{
+	display: block;
+}
+.three:hover .click{
+	display: block;
+}
+.four:hover .click{
+	display: block;
+}
+@keyframes slide{
+	0%{
+		transform: translateX(500px);
+	}
+	
+	100%{
+		transform: translateX(0px);
+	}
+}

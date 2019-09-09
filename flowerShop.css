@@ -118,7 +118,6 @@ header button{
 	margin: 15px;
 	display: flex;
 	flex-wrap: wrap-reverse;
-	animation: slide 1.5s ease;
 }
  .one{
 	background-image: url('one.jpg');
@@ -273,14 +272,14 @@ header button{
 
 }
 button{
-	height: 20px;
+	height: 40px;
 	border-radius: 10px;
 	font-style: italic;
 	font-weight: bold;
 	border:solid red 2px;	
 	margin-left: 50%;
 	outline: none;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 
 
 }
@@ -317,12 +316,6 @@ display: block;
 .four:hover .click{
 	display: block;
 }
-@keyframes slide{
-	0%{
-		transform: translateX(500px);
-	}
-	
-	100%{
-		transform: translateX(0px);
-	}
+footer button{
+
 }

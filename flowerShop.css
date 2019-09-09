@@ -327,7 +327,13 @@ font-family: 'Saira Stencil One', cursive;
 	margin-left: 40%;
 	font-size: 80px;
 	color:  #262626;
+	margin-bottom:20px;
 }
 .timecontainer {
 	width: 100%;
+
+}
+.quoteDiv{
+ margin-top: -50px;
+
 }

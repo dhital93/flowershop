@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<link href="https://fonts.googleapis.com/css?family=Monoton|Pridi|Saira+Stencil+One&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="flowerShop.css">
 	<meta charset="UTF-8">
 	<title>My Shop</title>
@@ -33,6 +34,7 @@
 			<h2 class="headerLine">Inspired By The Beauty</h2><br>
 			<h3 class="headerLineTwo">Of Nature</h3><br>
 			<button class="viewbutton">View Product</button></div>
+			<div class="timecontainer"><span id="clock"></span></div>
 		</header>
 		<div class="service">
 			<div class="one"><div class="click"><button>click</button></div><h2>Wedding</h2>
@@ -84,6 +86,16 @@
 			<button> <a href="#top">Jump To Top</a></button>
 		</footer>
 	</main>
+	<script>
+		function time(){
+		var time = new Date();
+		var min = time.getMinutes();
+		var hour= time.getHours();
+		var sec= time.getSeconds();
+		document.getElementById('clock').innerHTML= hour +":"+min +":"+sec;
+		}
+		setInterval(time,100);
+	</script>
 	
 </body>
 </html>

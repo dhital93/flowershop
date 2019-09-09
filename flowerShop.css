@@ -312,13 +312,22 @@ display: block;
 }
 .three:hover .click{
 	display: block;
+
 }
 .four:hover .click{
 	display: block;
 }
-<<<<<<< HEAD
 footer button{
 
 }
-=======
->>>>>>> 389446801c796bf9d9777c3af70f8e954a8ad44e
+#clock{
+	font-family: 'Monoton', cursive;
+font-family: 'Pridi', serif;
+font-family: 'Saira Stencil One', cursive;
+	margin-left: 40%;
+	font-size: 80px;
+	color:  #262626;
+}
+.timecontainer {
+	width: 100%;
+}

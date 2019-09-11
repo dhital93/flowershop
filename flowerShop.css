@@ -9,10 +9,12 @@ body{
 	margin-top: 0px;
 	border-bottom:5px solid #e6e600;
 	background-color: #f5f5f0;
+	flex-wrap: wrap;
 }
 .companyName{
 	margin-left: 25%;
 	margin-top: 0px;
+	height: 150px;
 
 }
 .companyName h2{
@@ -20,6 +22,7 @@ body{
 	font-style: italic;
 	font-size: 40px;
 	color: #000099;
+
 }
 .companyName h4{
 	margin-top: -45px;
@@ -335,5 +338,65 @@ font-family: 'Saira Stencil One', cursive;
 }
 .quoteDiv{
  margin-top: -50px;
+ display:flex;
+ flex-wrap: wrap;
+
+}
+.mainMenu{
+	display: none;
+}
+@media( max-width: 800px){
+	.menu{
+		display: none;
+	}
+	.mainMenu{
+		display: block;
+	}
+	#main{
+	width: 40px;
+	margin-left: 10px;
+	cursor: pointer;
+	position: relative;
+	left: 100%;
+}
+.line{
+	height: 6px;
+	background-color: black;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+li{
+	list-style: none;
+	font-family: sans-serif;
+	margin-top: 20px;
+	padding: 10px;
+	cursor: pointer;
+
+}
+ul{
+	width:100px;
+	border-radius: 20px;
+}
+.change .line{
+	background-color: red;
+}
+
+.ham{
+	display: none;
+}
+.change{
+	display:block;
+}
+ .ham li:hover{
+	font-weight: bold;
+	color: red;
+}
+#clock{
+	margin-left: 0%;
+
+}
+.ham ul{
+	position: absolute;
+}
 
 }
